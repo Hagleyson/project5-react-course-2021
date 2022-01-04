@@ -9,7 +9,7 @@ const MealItem = ({ name, description, price, id }) => {
       id: id,
       name: name,
       amount: amount,
-      price: `$${price.toFixed(2)}`,
+      price: price,
     });
   };
   return (
